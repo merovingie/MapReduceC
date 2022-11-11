@@ -1,0 +1,330 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/mr_worker"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CARES_STATICLIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/rimon/project4-7/external/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/rimon/project4-7/build/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "mr_workerlib::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "p4protolib::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "mr_worker::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../src/libmr_workerlib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../src/libp4protolib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libgrpc++.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libgrpc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libcares.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lnsl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libaddress_sorting.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libre2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_city.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_wyhash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_raw_hash_set.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_hashtablez_sampler.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_exponential_biased.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_statusor.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_bad_variant_access.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libgpr.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libupb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_status.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_cord.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_str_format_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_stacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_symbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_debugging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_demangle_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_graphcycles_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_malloc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_time.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_throw_delegate.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_strings_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_spinlock_wait.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_int128.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_civil_time.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_time_zone.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_bad_optional_access.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_raw_logging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libabsl_log_severity.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/libcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mr_worker",
+	"nameOnDisk" : "mr_worker",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/user_tasks.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

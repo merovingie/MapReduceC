@@ -1,0 +1,2 @@
+/usr/bin/x86_64-linux-gnu-ar qc libp4protolib.a CMakeFiles/p4protolib.dir/masterworker.pb.cc.o CMakeFiles/p4protolib.dir/masterworker.grpc.pb.cc.o
+/usr/bin/x86_64-linux-gnu-ranlib libp4protolib.a

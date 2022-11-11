@@ -1,0 +1,2 @@
+/usr/bin/x86_64-linux-gnu-ar qc libmr_workerlib.a CMakeFiles/mr_workerlib.dir/mr_task_factory.cc.o CMakeFiles/mr_workerlib.dir/run_worker.cc.o
+/usr/bin/x86_64-linux-gnu-ranlib libmr_workerlib.a

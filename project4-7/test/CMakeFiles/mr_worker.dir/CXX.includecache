@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rimon/project4/test/user_tasks.cc
+mr_task_factory.h
+-
+iostream
+-
+cstring
+-
+algorithm
+-
+numeric
+-
+
+external/include/mr_task_factory.h
+iostream
+-
+memory
+-
+vector
+-
+functional
+-
+

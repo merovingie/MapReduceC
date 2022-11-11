@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rimon/project4/test/main.cc
+iostream
+-
+cstdlib
+-
+unistd.h
+-
+mapreduce.h
+-
+
+external/include/mapreduce.h
+string
+-
+
